@@ -1,0 +1,121 @@
+body{
+    height: 1000000px;
+}
+.header
+{width: 100%;
+    height:50px;
+
+    background-color:rgb(230, 37, 37) ;
+position: fixed;
+top: 0;
+left: 0;
+right:0 ;
+border:0 ;
+opacity: 0.9;
+}
+.img1{
+    width: 90px;
+    height: 50px;
+    margin-left: 100px;
+  float: left;
+}
+.list1 {
+    margin-right: 100px;
+    float: right;
+}
+.list1 li{
+list-style: none;
+display: inline;
+margin-right: 30px;
+font-size: 22px;
+color:rgb(230, 0, 0);
+text-transform: capitalize;
+}
+/*nesting*/
+.list1 li a {
+color: white;
+text-decoration: none;
+
+} 
+*{
+    padding: 0;
+    margin: 0;
+}  
+.div{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/images\ \(15\).jpeg);
+background-size:cover ;
+}
+.overlay{
+    width:100% ;
+    height: 100%;
+   background-color: rgba(0, 0,0, 0.8);
+}
+.contant1{
+text-align: center;
+        width: 65%;
+       color:white ;
+        /*hero imaga*/
+        position: absolute;
+        top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+}
+.title1{
+    font-size: 70px;
+    letter-spacing: 3px;
+    word-spacing: 3px; 
+    margin-bottom:30px ;
+}
+span{
+    width: 20px;
+    color: antiquewhite;
+}
+.contant1 p{
+
+letter-spacing: 3px;
+    word-spacing: 3px; 
+    margin-bottom:30px }
+
+    .btn{
+        width: 180px;
+        height: 40px;
+        font-size: 22px;
+        border-radius: 10px;
+    border: 0;
+   text-transform: capitalize;
+   margin-left: 15px;
+   cursor: move;
+
+    }
+    .btn1{
+        background-color: burlywood;
+        color: white;
+    }
+    .btn:hover{
+       opacity: 0.2;
+    }
+    
+    .title2{
+        font-size: 70px;
+        letter-spacing: 3px;
+        word-spacing: 3px; 
+        margin-bottom:30px ;
+        margin: auto;
+        text-align: center;
+        text-decoration: none;
+        text-align: center;
+    }
+    hr{
+        width: 400px;
+        height: 1px;
+        border-radius: 50%;
+      background: fixed rgb(247, 230, 0);
+      margin: auto;
+    }
+   .container{
+    margin: auto;
+    height: 190px;
+   
+   }
